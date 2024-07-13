@@ -24,14 +24,14 @@ const Navbar = () => {
                 </h1>
             </Link>
             <div className="flex-none gap-2">
-                <ul className="menu menu-horizontal  items-center gap-1">
-                    <NavLink to={'/'} className={({isActive}) => isActive ? 'text-primary text-lg font-bold' : 'text-lg font-bold'}>
+                <ul className="menu menu-horizontal  items-center gap-5">
+                    <NavLink to={'/'} className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>
                         Home
                     </NavLink>
-                    <NavLink to={'/blogs'} className={({isActive}) => isActive ? 'text-primary text-lg font-bold' : 'text-lg font-bold'}>
+                    <NavLink to={'/blogs'} className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>
                         Blogs
                     </NavLink>
-                    <NavLink to={'/bookmarks'} className={({isActive}) => isActive ? 'text-primary text-lg font-bold' : 'text-lg font-bold'}>
+                    <NavLink to={'/bookmarks'} className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>
                         Bookmarks
                     </NavLink>
                 </ul>

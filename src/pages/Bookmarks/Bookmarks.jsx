@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import BlogCard from "../../components/BlogCard/BlogCard";
-import { deleteBlog, getBlogs } from "../../Index";
 import EmptyState from "../../components/EmptyState/EmptyState";
+import { deleteBlog, getBlogs } from "../../Utils/Index";
 
 const Bookmarks = () => {
     const [blogs, setBlogs] = useState([]);
